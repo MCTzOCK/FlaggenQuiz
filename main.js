@@ -43,6 +43,8 @@ function check(){
             clearInterval(pt)
             console.log(codes[currentCode])
             document.getElementById('points').innerText = "Du hast verloren! Pukte: " + points
+            document.getElementById('answer').disabled = true
+            document.getElementById('enter').disabled = true
             lost = true
         }
     }
