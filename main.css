@@ -1,0 +1,40 @@
+/**
+ * @author Ben Siebert
+ * @copyright 2018-2021 Ben Siebert. All rights reserved.
+ */
+
+* {
+    font-size: 1.75vw;
+    font-family: sans-serif;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(140deg, #aa2e0d 0%, #00d7e8 50%, #8d0daa 75%);
+    background-attachment: fixed;
+}
+
+.center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.visuallyHidden {
+    visibility: hidden;
+}
+
+#flagDisplay {
+    margin: 4%;
+}
+
+#flagDisplay img {
+    border-radius: 12px;
+    border-style: solid;
+}

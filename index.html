@@ -6,10 +6,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Länder Quiz</title>
+    <title>Flaggen Quiz</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
+    <div id="main">
+        <div id="flagDisplay" class="center">
+            <h1 id="points">Punkte: 50</h1>
+            <img
+                src="https://place-hold.it/360x240/fff"
+                height="240"
+                draggable="false"
+                id="flagImage"
+            >
+        </div>
+        <div class="center">
+            <input type="text" placeholder="Antwort" id="answer">
+            <button id="enter">Eingabe</button>
+        </div>
+    </div>
 </body>
 </html>
